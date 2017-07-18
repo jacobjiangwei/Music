@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160E87691F1E2036008B9811 /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E87681F1E2036008B9811 /* KeyCenter.swift */; };
 		161E3D001F1A46FC00C7B329 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161E3CFF1F1A46FC00C7B329 /* AppDelegate.swift */; };
 		161E3D051F1A46FC00C7B329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161E3D031F1A46FC00C7B329 /* Main.storyboard */; };
 		161E3D071F1A46FC00C7B329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161E3D061F1A46FC00C7B329 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		160E87681F1E2036008B9811 /* KeyCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCenter.swift; sourceTree = "<group>"; };
 		161E3CFC1F1A46FC00C7B329 /* SMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		161E3CFF1F1A46FC00C7B329 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		161E3D041F1A46FC00C7B329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				1675C16E1F1BAE9B00251D6C /* Welcome */,
 				161E3CFF1F1A46FC00C7B329 /* AppDelegate.swift */,
 				161E3D0B1F1A46FC00C7B329 /* Info.plist */,
+				160E87681F1E2036008B9811 /* KeyCenter.swift */,
 			);
 			path = SMusic;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160E87691F1E2036008B9811 /* KeyCenter.swift in Sources */,
 				163D4BF61F1CCC6A00B977AD /* AppleMusicManager.swift in Sources */,
 				161E3D001F1A46FC00C7B329 /* AppDelegate.swift in Sources */,
 				1675C1701F1BAEC600251D6C /* WelcomeViewController.swift in Sources */,
@@ -327,7 +331,7 @@
 				DEVELOPMENT_TEAM = M932RC5J66;
 				INFOPLIST_FILE = SMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.SMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = music.ringcentral.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -341,7 +345,7 @@
 				DEVELOPMENT_TEAM = M932RC5J66;
 				INFOPLIST_FILE = SMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.SMusic;
+				PRODUCT_BUNDLE_IDENTIFIER = music.ringcentral.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

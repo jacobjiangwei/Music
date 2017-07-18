@@ -22,7 +22,7 @@ class WelcomeViewController: UIViewController {
     }
     
     @IBAction func startAppleMusic(_ sender: Any) {
-        AppleMusicManager.shared.authPermission()
+        AppleMusicManager.shared.checkPermissionChange()
     }
     
     
